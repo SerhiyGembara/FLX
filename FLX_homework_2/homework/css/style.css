@@ -1,0 +1,142 @@
+@media print{
+    html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .tm-footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .flex-item {
+        padding-top: 100px;
+        height: 2000px;
+        width: 2000px;
+    }
+    h2.tm-section-title {
+        color: blue !important;
+    }
+    .tm-team-description-container::before {
+        display: none !important; 
+    }
+    .tm-main-nav {
+        display: none !important;
+    }
+}
+.tm-banner {
+    width: 100%;
+}
+.tm-content-box {
+    box-shadow: 0 0 10px 1px
+}
+.tm-content-header {
+    background-color: lightgrey;
+}
+.tm-banner-inner {
+    background-color: white;
+}
+.tm-banner p:first-letter {
+    color: #87CEFA;
+    font-size: 30px;
+}
+.tm-content-box.flex-2-col {
+    display: flex;
+}
+h2.tm-section-title {
+    color: #87CEFA;
+}
+.tm-section-description {
+    text-indent: 20px;
+}
+.tm-team-description-container{
+    padding-top: 100px;
+}
+.tm-team-description-container {
+    position: relative;
+}
+.tm-team-description-container p:first-letter {
+color: #87CEFA;
+font-size: 30px;
+}
+.tm-team-description-container p:first-of-type {
+    font-style: italic;
+}
+.tm-team-description-container::before {
+    position: absolute;
+    top: 0;
+    left:0; 
+    content: "";
+    border-style: solid;
+    border-width: 30px 230px 0 0;
+    border-color: #87CEFA transparent transparent transparent; 
+}
+.carousel {
+    background-color: gainsboro;
+    letter-spacing: 5px;
+}
+.box-bg:hover {
+    background-color: #87CEFA;
+}
+.tm-box-bg-title:hover {
+    color:white;
+}
+.padding-medium li a {
+    color: black ;
+}
+.padding-medium a:hover {
+    text-decoration-line: none;
+    border-bottom: double;
+    color: #87CEFA;
+}
+.padding-medium a:visited {
+    text-decoration-line: underline;
+}
+.blocks {
+    display: flex;
+    flex-direction: column;
+}
+.padding-medium.flex-item.tm-team-description-container {
+    max-width: none;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px 1px;
+}
+.heading li:first-child a::after,
+.heading li:nth-child(3) a::after{
+    color: red;
+    content: "new";
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.gallery-container li:nth-child(even) {
+    background-color: lightgrey;
+}
+.form-group-2-col-right {
+    position: relative;
+}
+.form-group-2-col-right::before {
+    position: absolute; 
+    top: 2px;
+    right: 5px;
+    content: "*";
+    color:red;
+}
+.submit-btn {
+    background-color: white;
+    color: #87CEFA;
+}
+.submit-btn:hover {
+    background-color: #87CEFA;
+}
+.tm-nav-item:hover {
+    background-color: lightgrey;
+}
+.tm-footer p:first-letter {
+    color: #87CEFA;
+    font-size: 30px;
+}
