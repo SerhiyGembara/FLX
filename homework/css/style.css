@@ -99,7 +99,7 @@ font-size: 30px;
     display: flex;
     flex-direction: column;
 }
-.blocks.padding-medium.flex-item {
+.padding-medium.flex-item.tm-team-description-container {
     max-width: none;
     width: 100%;
     background-color: white;
