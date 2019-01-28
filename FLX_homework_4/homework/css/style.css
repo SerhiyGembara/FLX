@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font-family: Open Sans;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto; }
+  body header {
+    background-image: url(../img/sample2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 930px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
+    body header::before {
+      position: absolute;
+      display: block;
+      bottom: 0;
+      left: 0;
+      content: "";
+      border-style: solid;
+      border-width: 200px 0 0 1920px;
+      border-color: transparent transparent transparent #F3F3F3; }
+    body header div {
+      display: flex;
+      flex-direction: row;
+      position: relative; }
+      body header div.logo-text
+      p {
+        text-transform: uppercase;
+        margin: 30px;
+        font-size: 18px;
+        letter-spacing: 5px;
+        color: white; }
+      body header div nav {
+        position: absolute;
+        right: 30px;
+        top: 30px; }
+        body header div nav a {
+          padding: 10px;
+          text-decoration: none;
+          color: white; }
+    body header .centre {
+      text-align: center;
+      padding-top: 12%;
+      width: 100%; }
+      body header .centre h1 {
+        font-size: 40px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 0px; }
+        body header .centre h1 b {
+          font-size: 100px; }
+      body header .centre h4 {
+        margin-top: 0px;
+        color: white;
+        margin-bottom: 170px; }
+      body header .centre .header-btn {
+        justify-content: space-around; }
+        body header .centre .header-btn a {
+          color: white;
+          border-style: solid;
+          border-color: white;
+          font-size: 14px;
+          text-decoration: none;
+          padding-bottom: 15px;
+          padding-top: 15px;
+          padding-left: 80px;
+          padding-right: 80px;
+          opacity: 0.6;
+          background-color: #000000; }
+    body header .upper {
+      display: flex;
+      flex-direction: column;
+      position: relative; }
+      body header .upper .part-1 {
+        font-size: 14px;
+        color: white;
+        width: 40%;
+        margin-left: 60%;
+        margin-top: 50px; }
+      body header .upper .part-2 {
+        margin-left: 10px;
+        margin-top: 20px;
+        color: black; }
+      body header .upper .part-3 {
+        justify-content: center;
+        color: white;
+        color: black; }
+  body main .middle-1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3F3F3; }
+    body main .middle-1 .photo {
+      background: url(../img/sample.jpg);
+      background-repeat: no-repeat;
+      width: 1400px;
+      height: 400px;
+      background-size: cover;
+      position: relative;
+      margin: 50px; }
+      body main .middle-1 .photo .discription {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: white; }
+      body main .middle-1 .photo .likes {
+        position: absolute;
+        right: 10px;
+        top: 10px; }
+        body main .middle-1 .photo .likes button {
+          color: white;
+          border-style: solid;
+          border-color: white;
+          opacity: 0.7;
+          background-color: #000000; }
+        body main .middle-1 .photo .likes h5 {
+          margin: 0px; }
+    body main .middle-1 .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      margin: 50px; }
+  body main .middle-2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF; }
+    body main .middle-2 .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 100px;
+      margin-top: 50px;
+      width: 20%;
+      border-style: outset;
+      padding: 20px;
+      border-color: grey; }
+      body main .middle-2 .box .button-list {
+        width: 100%; }
+      body main .middle-2 .box button {
+        width: 100%;
+        height: 40px;
+        font-family: Open Sans;
+        color: white;
+        background-color: #097774;
+        font-size: 18px;
+        border-style: none; }
+      body main .middle-2 .box h4 {
+        margin: 0; }
+  body main .middle-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3; }
+    body main .middle-3 p {
+      margin: 20px; }
+    body main .middle-3 .subscribe {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 50px; }
+      body main .middle-3 .subscribe h1 {
+        margin: 10px; }
+      body main .middle-3 .subscribe form {
+        margin: 10px; }
+        body main .middle-3 .subscribe form input {
+          height: 34px;
+          width: 200px;
+          border-style: solid;
+          background-color: #F3F3F3; }
+      body main .middle-3 .subscribe button {
+        width: 100px;
+        height: 40px;
+        font-family: Open Sans;
+        color: white;
+        background-color: #097774;
+        font-size: 18px;
+        border-style: none;
+        margin: 10px; }
+  body main .end {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    background-color: #FFFFFF; }
+    body main .end .end-left {
+      display: flex; }
+      body main .end .end-left .end-left-main {
+        width: 35%;
+        margin: 10px;
+        font-size: 15px; }
+        body main .end .end-left .end-left-main p {
+          color: grey; }
+        body main .end .end-left .end-left-main .time p {
+          color: #9E9E9E;
+          margin: 5px; }
+      body main .end .end-left .contact {
+        width: 25%;
+        margin: 10px; }
+        body main .end .end-left .contact h2 {
+          margin: 18px; }
+        body main .end .end-left .contact p {
+          color: gray;
+          margin: 5px; }
+    body main .end .end-right {
+      margin: 10px;
+      margin-left: 5%;
+      width: 30%; }
+      body main .end .end-right p {
+        color: grey; }
+      body main .end .end-right .subscribe1 {
+        display: flex; }
+        body main .end .end-right .subscribe1 form {
+          margin: 10px; }
+          body main .end .end-right .subscribe1 form input {
+            height: 34px;
+            width: 100%;
+            border-style: solid; }
+        body main .end .end-right .subscribe1 button {
+          width: 100%;
+          height: 40px;
+          font-family: Open Sans;
+          color: white;
+          background-color: #097774;
+          font-size: 18px;
+          border-style: none;
+          margin: 10px; }
+  body footer {
+    position: relative;
+    border-top: 1px solid grey; }
+    body footer span {
+      color: grey; }
+    body footer .link {
+      position: absolute;
+      right: 0;
+      top: 0; }
+      body footer .link a {
+        text-decoration: none;
+        color: black;
+        margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */
