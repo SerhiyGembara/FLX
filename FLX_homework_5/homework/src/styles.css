@@ -1,0 +1,255 @@
+@media (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+  .main-part {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0;
+    height: auto;
+  }
+  .main-part section:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: end;
+    justify-content: space-between;
+  }
+  .main-part section:nth-child(odd) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .img {
+    max-width: 50%;
+  }
+  .post-text {
+    max-width: 40%;
+  }
+  .post-date {
+    max-width: 10%;
+  }
+  .main-side {
+    width: 23%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 1%;
+    background-color: #162b4d;
+    color: grey;
+  }
+  .right-text  {
+    width: 15%;
+  }
+  .left-text {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 768px) and ( min-width: 480px ) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav {
+    display: none;
+  }
+  .main-part section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-side {
+    width: 35%;
+  }
+  .main-part {
+    width: 60%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 1%;
+    background-color: #162b4d;
+    color: grey;
+  }
+}
+@media only screen and ( max-width: 480px ) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .nav {
+    display: none;
+  }
+  .main-part section {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-side {
+    width: 100%;
+  }
+  .footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 1%;
+  background-color: #162b4d;
+  color: grey;
+  }
+}
+body {
+  font-family: roboto;
+  background-color:#0b192f;
+  max-width: 80%;
+  margin: auto;
+}
+.post-1 {
+	background: #B71757;
+}
+.post-2 {
+	background: #0D7E71;
+}
+.post-3 {
+	background: #b1660e;
+}
+.post-4 {
+	background: #d12767;
+}
+.post-5 {
+	background: #2d95bb;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #162b4d;
+  margin-bottom: 1%;
+}
+.header-name  {
+  margin-left: 1%;
+  font-size: 30px;
+}
+.header-name p {
+  margin: 5%;
+  margin-bottom: 10%;
+  color:#fff;
+}
+.header-name span {
+  color: #B71757;
+}
+.nav {
+  width: 70%;
+}
+.nav nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  width: 11%;
+  text-align: center;
+  padding: 3% 3% 3% 3%;
+}
+.nav a:hover {
+  background-color: #b8b8b8;
+}
+.icon div {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-part div:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+.post-text h2 {
+  font-weight: normal;
+  font-size: 200%;
+  margin: 5%;
+  color: whitesmoke;
+  padding-top: 10%;
+}
+.post-text p {
+  margin: 5%;
+  color: lightgray;
+  font-size: 100%;
+}
+.post-date {
+  text-align: center;
+  opacity: 0.7;
+}
+.post-date h3 {
+  font-weight: normal ;
+  font-size: 150%;
+  margin: 5%;
+  color: rgb(224, 211, 211);
+  padding: 5px;
+}
+.post-date p {
+  color: rgb(224, 211, 211);
+  margin: 5%;
+  padding: 5px; 
+}
+.post-text-1 {
+  width: 90%;
+}
+.post-text-1 p {
+  margin: 5%;
+  color: lightgray;
+  font-size: 100%;
+}
+.post-text-1 h2 {
+  font-weight: normal;
+  font-size: 200%;
+  margin: 5%;
+  color: whitesmoke;
+}
+.img-1 {
+  max-width: 100%;
+}
+.img-1 img {
+  width: 100%;
+  height: 100%;
+}
+.side-post {
+  background-color: whitesmoke;
+}
+.side-post{
+  margin-bottom: 10%;
+}
+.post-text-side {
+  padding: 5%;
+}
+.post-text-side h4 {
+  font-weight: normal;
+}
+.post-text-side p {
+  color:grey;
+}
