@@ -1,0 +1,11 @@
+
+function addOne (x) {
+    return x + 1 ;
+}
+function pipe () {
+    for ( var i= 1; i< arguments.length;i++){
+        arguments[0] = arguments[i](arguments[0]) ;
+    }
+return arguments[0];
+}
+pipe (1,addOne)
